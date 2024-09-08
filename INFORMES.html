@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de México - Informes</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link Inicio" target="_blank" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link informes" target="_blank" href="INFORMES.html">Informes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link visita" target="_blank" href="VISITA.html">Visita</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Solicita Información</h2>
+            <p>Completa el formulario para recibir más información sobre el Estado de México.</p>
+        </section>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="telefono">Número de contacto:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="correo">Correo de contacto:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Estado de México. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
