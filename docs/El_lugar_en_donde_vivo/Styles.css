@@ -1,0 +1,118 @@
+.nav-tabs .nav-link.Inicio {
+    color: #fff;
+    background-image: linear-gradient(to right, #874CCC,  #D20062,  #008DDA);
+    border-color: #007bff;
+}
+
+.nav-tabs .nav-link.informes {
+    color: #fff;
+    background-image: linear-gradient(to right, #06D001, #FFD93D, #FF8400);
+    border-color: #28a745;
+}
+
+.nav-tabs .nav-link.visita {
+    color: #fff;
+    background-image: linear-gradient(to right, #FD841F,#d82e22, #FF487E);
+    border-color: #f848af;
+}
+
+.nav-tabs .nav-link {
+    color: #f1eaea;
+    background-image: linear-gradient(to right, #e9ecef, #dee2e6);
+    border-color: #dee2e6;
+}
+
+.container {
+    text-align: center;
+}
+
+.nav-tabs {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.5rem;
+}
+
+.nav-tabs .nav-link {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0056b3;
+    background-color: #e9ecef;
+}
+
+body {
+    margin: 50px;
+    padding: 50px;
+    border: 50xpx solid transparent;
+    background-image: linear-gradient(to bottom, pink, lightgreen, orange);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: #333;
+    color: #0c0c0c;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.ubicacion {
+    background-color: #444;
+    border: 5px solid transparent;
+    background-image: linear-gradient(to bottom, pink, lightgreen, orange);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    color: #141414;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.ubicacion h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ubicacion img {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+    height: auto;
+}
+
+.ubicacion p {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .ubicacion {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .ubicacion {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ubicacion img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+}

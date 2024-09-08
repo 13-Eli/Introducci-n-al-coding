@@ -1,0 +1,58 @@
+
+.nav-tabs .nav-link.Inicio {
+    color: #fff; 
+    background-image: linear-gradient(to right, #874CCC,  #D20062,  #008DDA); /* Gradiente de azul a celeste */
+    border-color: #007bff; 
+}
+
+
+.nav-tabs .nav-link.informes {
+    color: #fff; 
+    background-image: linear-gradient(to right, #06D001, #FFD93D, #FF8400); 
+    border-color: #28a745; 
+}
+
+
+.nav-tabs .nav-link.visita {
+    color: #fff; 
+    background-image: linear-gradient(to right, #FD841F,#d82e22, #FF487E); 
+    border-color: #f848af; 
+}
+
+
+.nav-tabs .nav-link {
+    color: #000; 
+    background-image: linear-gradient(to right, #e9ecef, #dee2e6); 
+    border-color: #dee2e6; 
+}
+
+.container {
+    text-align: center; 
+}
+
+.nav-tabs {
+    display: inline-flex; 
+    justify-content: center; 
+    padding: 0; 
+    margin: 0; 
+    list-style-type: none; 
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff; 
+    font-size: 1.5rem; 
+}
+
+
+.nav-tabs .nav-link {
+    font-size: 1.25rem; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0056b3; 
+    background-color: #e9ecef; 
+}
